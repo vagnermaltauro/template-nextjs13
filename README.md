@@ -1,22 +1,28 @@
+# template-nextjs13 - in progress
+
+Template Nextjs 13
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+**With Next.js 13 & React 18!**
+
+- 📏 **ESLint** — Pluggable JavaScript linter
+- 💖 **Prettier** - Opinionated Code Formatter
+- 🐶 **Husky** — Use git hooks with ease
+- 🚫 **lint-staged** - Run linters against staged git files
+- 🐙 **React Testing Library (RTL)** - Builds by adding APIs for working with React components
+- 🃏 **Vitest** - A delightful JavaScript Testing Framework with a focus on simplicity
+- 💅 **Tailwind CSS** - Use the best bits of ES6 and CSS to style your apps without stress
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
@@ -32,3 +38,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+For add your commit:
+
+```commitzen
+pnpm git:commit
+```
