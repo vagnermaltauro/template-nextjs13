@@ -1,0 +1,33 @@
+{
+  "name": "template-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git:commit": "git-cz",
+    "git:all": "git add . && git-cz",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Vagner Willian Maltauro",
+  "license": "ISC",
+  "dependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/prompt-cli": "^17.7.1",
+    "commitizen": "^4.3.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^14.0.1",
+    "husky": "^8.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "prettier --write"
+  }
+}
