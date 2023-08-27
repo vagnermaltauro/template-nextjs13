@@ -34,4 +34,4 @@ To view the project open `http://localhost:3000`.
 
 ## **After your pull request is merged**, you can safely delete your branch.
 
-Made with ♥ by Vagner Maltauro
+Made with ♥ by Vagner Willian Maltauro
