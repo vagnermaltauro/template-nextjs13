@@ -2,13 +2,13 @@ A TypeScript starter for Next.js that includes all you need to build amazing pro
 
 ## Tech Stack 📚:
 
-- `TypeScript` 5.1.3
+- `TypeScript` 5.2.2
 - `Next.js` 13.4 and `React.js`
 - `TailwindCSS` 3.2 and its plugins.
 - [Shadcn/ui](https://ui.shadcn.com) and [Radix-ui](https://radix-ui.com).
 - [Lucide](https://lucide.dev) icons.
 - [next-themes](https://github.com/pacocoursey/next-themes).
-- `cslx`, `class-variance-authority`, and `tw-merge`.
+- `cslx`.
 - `EsLint`, `Prettier`, and their ecosystem.
 
 ## 🚀 Getting started
