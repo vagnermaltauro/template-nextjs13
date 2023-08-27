@@ -45,7 +45,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-For add your commit:
+## For add your commit:
 
 ```commitzen
 pnpm git:commit
