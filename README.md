@@ -1,52 +1,38 @@
-# template-nextjs13 - in progress
+A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
 
-Template Nextjs 13
+## Tech Stack 📚:
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- `TypeScript` 5.1.3
+- `Next.js` 13.4 and `React.js`
+- `TailwindCSS` 3.2 and its plugins.
+- [Shadcn/ui](https://ui.shadcn.com) and [Radix-ui](https://radix-ui.com).
+- [Lucide](https://lucide.dev) icons.
+- [next-themes](https://github.com/pacocoursey/next-themes).
+- `cslx`, `class-variance-authority`, and `tw-merge`.
+- `EsLint`, `Prettier`, and their ecosystem.
 
-**With Next.js 13 & React 18!**
+## 🚀 Getting started
 
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 🚫 **lint-staged** - Run linters against staged git files
-- 🐙 **React Testing Library (RTL)** - Builds by adding APIs for working with React components
-- 🃏 **Vitest** - A delightful JavaScript Testing Framework with a focus on simplicity
-- 💅 **Tailwind CSS** - Use the best bits of ES6 and CSS to style your apps without stress
+The best way to start with this template is using `create-next-app`.
 
-## Getting Started
-
-1 - Install project
-
-```bash
-pnpm install
+```
+npx create-next-app project-name -e https://github.com/vagnermaltauro/template-nextjs13
 ```
 
-2 - run the development server:
+If you prefer you can clone this repository and run the following commands inside the project folder:
 
-```bash
-pnpm dev
-```
+1. `pnpm install`;
+2. `pnpm dev`;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To view the project open `http://localhost:3000`.
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork this repository;
+2. Create your branch: `git checkout -b my-new-feature`;
+3. Commit your changes: `git commit -m 'Add some feature'`;
+4. Push to the branch: `git push origin my-new-feature`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **After your pull request is merged**, you can safely delete your branch.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## For add your commit:
-
-```commitzen
-pnpm git:commit
-```
+Made with ♥ by Vagner Maltauro
