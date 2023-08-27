@@ -4,10 +4,10 @@
   "private": true,
   "author": "Vagner Willian Maltauro",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "vitest run",
     "lint": "next lint",
     "git:commit": "git-cz",
     "git:all": "git add . && git-cz",
@@ -20,10 +20,12 @@
     "@types/node": "20.5.6",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
     "autoprefixer": "10.4.15",
     "commitizen": "^4.3.0",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "jest-extended": "^4.0.1",
     "next": "13.4.19",
     "postcss": "8.4.28",
     "react": "18.2.0",
@@ -32,9 +34,12 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "husky": "^8.0.0",
+    "jsdom": "^22.1.0",
     "lint-staged": "^14.0.1",
-    "prettier": "3.0.2"
+    "prettier": "3.0.2",
+    "vitest": "^0.34.3"
   },
   "config": {
     "commitizen": {
