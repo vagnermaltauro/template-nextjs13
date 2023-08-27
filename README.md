@@ -1,22 +1,22 @@
-A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
+# next-template
 
-## Tech Stack 📚:
+A Next.js 13 template for building amazing projects 🔥
+
+## Features
 
 - `TypeScript` 5.2.2
-- `Next.js` 13.4 and `React.js`
-- `TailwindCSS` 3.2 and its plugins.
+- `Next.js` 13.4 and `React.js` App directory
 - [Shadcn/ui](https://ui.shadcn.com) and [Radix-ui](https://radix-ui.com).
-- [Lucide](https://lucide.dev) icons.
-- [next-themes](https://github.com/pacocoursey/next-themes).
-- `cslx`.
-- `EsLint`, `Prettier`, and their ecosystem.
+- Radix UI Primitives
+- Tailwind CSS
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with [next-themes](https://github.com/pacocoursey/next-themes).
+- Tailwind CSS class sorting, merging and linting.
 
-## 🚀 Getting started
+## Usage
 
-The best way to start with this template is using `create-next-app`.
-
-```
-npx create-next-app project-name -e https://github.com/vagnermaltauro/template-nextjs13
+```bash
+npx create-next-app -e https://github.com/vagnermaltauro/template-nextjs13
 ```
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
