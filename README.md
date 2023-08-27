@@ -7,7 +7,6 @@ A Next.js 13 template for building amazing projects 🔥
 - `TypeScript` 5.2.2
 - `Next.js` 13.4 and `React.js` App directory
 - [Shadcn/ui](https://ui.shadcn.com) and [Radix-ui](https://radix-ui.com).
-- Radix UI Primitives
 - Tailwind CSS
 - Icons from [Lucide](https://lucide.dev)
 - Dark mode with [next-themes](https://github.com/pacocoursey/next-themes).
