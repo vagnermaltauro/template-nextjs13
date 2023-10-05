@@ -1,6 +1,6 @@
 # next-template
 
-A Next.js 13 template for building amazing projects 🔥
+A template Next.js 13 for building amazing projects 🔥
 
 ## Features
 
