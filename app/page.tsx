@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-import { siteConfig } from '@/config/site';
 import { buttonVariants } from '@/components/ui/button';
 
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
         <Link
           target="_blank"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href="https://github.com/vagnermaltauro/template-nextjs13"
           className={buttonVariants({ variant: 'outline' })}
         >
           GitHub
