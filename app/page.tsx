@@ -26,7 +26,7 @@ export default function Home() {
         <Link
           target="_blank"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href="https://github.com/vagnermaltauro/template-nextjs13"
           className={buttonVariants({ variant: 'outline' })}
         >
           GitHub
