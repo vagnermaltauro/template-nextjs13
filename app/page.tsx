@@ -7,7 +7,7 @@ export default function Home() {
     <section className="container grid h-screen items-center content-center justify-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-center gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-6xl">
-          Template Nextjs 13
+          Nextjs 13 Template
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
           Tailwind, Vitest, Testing-library, Shadcn-ui, Lucide-Icons and more!
